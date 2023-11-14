@@ -29,7 +29,7 @@ function renderProducts() {
             </div>
 
             <div class="col">
-                &euro; ${product.price}
+                &usd; ${product.price}
             </div>
 
             
@@ -83,7 +83,7 @@ function renderSubtotal(){
     subtotalEl.innerHTML = `${subtotal.toFixed(2)}`;
     tipEl.innerHTML = `${tip}`;
     totalItemsEl.innerHTML = ` ${totalItems}`;
-    totalPriceEl.innerHTML = `&euro; ${totalPrice.toFixed(2)}`;
+    totalPriceEl.innerHTML = `&usd; ${totalPrice.toFixed(2)}`;
 }
 
 //Function to render cart items
